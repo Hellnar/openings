@@ -2,7 +2,7 @@
 
 > **Please, note that these openings are from the LinkedIn. I don't familiar with this companies. Check all the information about the company before applying.**
 
-|Company|Country|Link|
+|Company|Country|Description link|
 |--|--|--|
 |Vine Recruitment|South Africa|https://www.careers24.com/jobs/adverts/1659735-web-developer-cape-town-southern-suburbs/|
 |Aglet|South Africa|https://aglet.co.za/careers/|
