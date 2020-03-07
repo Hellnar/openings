@@ -2,6 +2,22 @@
 
 > **Please, note that these openings are from the LinkedIn. I don't familiar with this companies. Check all the information about the company before applying.**
 
+# Internship for Developers
+|Company|Country|Description link|
+|--|--|--|
+|Tocco Studios Pte Ltd|Singapore|https://www.internsg.com/job/tocco-studios-pte-ltd-web-developer-intern-5/?f_pg=3&utm_source=jooble&utm_medium=cpc&utm_campaign=jooble|
+|Sopra Steria|Italy|https://www.linkedin.com/jobs/view/1739066977/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=f22728c2-f17a-4d48-af38-cd2f12e393c4&trk=d_flagship3_search_srp_jobs|
+|Talentspa|UK|https://www.reed.co.uk/jobs/trainee-web-developer/40065155?utm_source=applygatewaycpa&utm_medium=aggregator&utm_term=group8test&utm_content=clickcast|
+|Presize.ai|Germany|https://presize.join.com/jobs/814661-front-end-web-developer-intern-m-f-d?pid=93dde148e3f919be3310&utm_source=linkedin&utm_medium=free&utm_campaign=linkedin%2Blimited%2Blisting&utm_content=front-end%2Bweb%2Bdeveloper%2Bintern%2Bm%2Bf%2Bd|
+|iTechArt Group|Belarus|https://jobs.tut.by/vacancy/36085521?utm_campaign=BY&utm_medium=meta&utm_source=jooble.org|
+|Perspecta|US|https://careers-perspecta.icims.com/jobs/97006/web-developer-intern/job?mobile=false&width=987&height=500&bga=true&needsRedirect=false&jan1offset=120&jun1offset=180|
+|Binariks|Ukraine|https://binariks.breezy.hr/p/19b684f4d275?utm_source=jooble&utm_medium=cpc&utm_campaign=jooble|
+|CGI|Latvia|https://cgi.njoyn.com/cgi/xweb/Xweb.asp?tbtoken=ZVhaRhNaDVABawFzTFFQHE86d2IvaVVdd1xMIloKD3kuWEQcUDEaBWEGAkYYGhdTSXBlF3U%3D&chk=ZVpaShM%3D&clid=21001&page=jobdetails&jobid=J0220-2224&BRID=743360&SBDID=20561&SBDID=20561|
+|RB|Poland|https://careers.rb.com/job/Intern-Junior-Mobile-App-Developer/591692001/?locale=en_GB&utm_campaign=LinkedinJobPostings&utm_source=LinkedinJobPostings&applySourceOverride=LinkedIn|
+|Cadmaxx Solutions Private Limited|India|https://www.monsterindia.com/seeker/job-details?id=1379370|
+
+# Junior Developers Openings
+
 |Company|Country|Description link|
 |--|--|--|
 |Vine Recruitment|South Africa|https://www.careers24.com/jobs/adverts/1659735-web-developer-cape-town-southern-suburbs/|
