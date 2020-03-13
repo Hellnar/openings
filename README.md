@@ -9,7 +9,9 @@
 
 # Entry-level Developers Openings
 
-[Nigeria](https://github.com/Hellnar/openings/blob/master/README.md/##%Nigeria)
+||||||
+|--|--|--|--|--|
+|[Nigeria](https://github.com/Hellnar/openings/blob/master/README.md/#nigeria)|[India](https://github.com/Hellnar/openings/blob/master/README.md/#india)|||||
 
 ## Nigeria
 
