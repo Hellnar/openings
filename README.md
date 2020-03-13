@@ -2,13 +2,14 @@
 
 > **Please, note that these openings are from the LinkedIn. I don't familiar with this companies. Check all the information about the company before applying.**
 
-[TOCM]
 
 # Internship for Developers
 |Position|Company|Country|Link|
 |--|--|--|--|
 
 # Entry-level Developers Openings
+
+[Nigeria](https://github.com/Hellnar/openings/edit/master/README.md/##%Nigeria)
 
 ## Nigeria
 
