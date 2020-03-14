@@ -5,9 +5,45 @@
 
 # Entry-level Developers Openings
 
-|||
-|--|--|
-|[Nigeria](https://github.com/Hellnar/openings/blob/master/README.md/#nigeria)|[India](https://github.com/Hellnar/openings/blob/master/README.md/#india)|
+||||
+|--|--|--|
+|[REMOTE](https://github.com/Hellnar/openings/blob/master/README.md/#remote)|[Nigeria](https://github.com/Hellnar/openings/blob/master/README.md/#nigeria)|[India](https://github.com/Hellnar/openings/blob/master/README.md/#india)|
+
+## Remote
+|Position|Company|Country|Link|
+|--|--|--|--|
+|Full Stack Engineer|Hire Digital Talent|Germany|https://www.linkedin.com/jobs/view/1755258106/?eBP=CwEAAAFw2DOlNfAL1fbmy5W4APxqaEp_FP3V1TG6nkFxEisG0fqr6Cy7VqNoIVGWwa0WZsmaOJ6Aqy61HH5ZunSDem1VPPR7iNC-aLPKVwzrKSUULFDwjjuUSiF9r4d4C2AQ7xlXzFLW2d69uzKsveU3X2yFPfWBA2pCoTfDBiABXRQBsM7hz7OCwOwHGU8_Z751hmslL5HlxVIWvwc_Y78Dywd-yK17FmHzT5GmUctNs4HzSucsYgi3HNK47Ux7fj5AnBouxydDoSaIuLPH2r_3CY2MKkoXI2duQEVsQtcY8DM8W8BcKefjVjF1zC2pNlPDGJqWxSFEPjLizntv5QArmZQWKY7Y29yG3WNtCzwA5Cx6zEVPXM0EsWeSvpqFA59bMrNI1Y6WKd4wAJ-d&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Remote Web Developer|MonetizeMore|Ukraine|https://www.linkedin.com/jobs/view/1439332882/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|C# Junior Developer (Unity Video Games)|Rollddice |Peru|https://www.linkedin.com/jobs/view/1774553699/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Remote Unity/Web Developer|ScopicSoftware|Ukraine|https://www.linkedin.com/jobs/view/1738653925/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Junior front - end developer|Jefferson Frank |UK|https://www.linkedin.com/jobs/view/1758182010/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Junior JavaScript Developer|Brandwatch |UK|https://www.linkedin.com/jobs/view/1774550425/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=HIDDEN_GEM&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Web Developer|WealthKernel |UK|https://www.linkedin.com/jobs/view/1751649609/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Junior front - end developer|Frank Recruitment Group |UK|https://www.linkedin.com/jobs/view/1771031025/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Web Developer|JBCconnect | Creative Technology Talent |US|https://www.linkedin.com/jobs/view/1766040062/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Web developer backend|Workhoppers |Canada|https://www.linkedin.com/jobs/view/1723704311/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Web Developer|WayNext - digital agency |Portugal|https://www.linkedin.com/jobs/view/1751627084/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Full-Stack Web Developer|Prominent Edge |US|https://www.linkedin.com/jobs/view/1759489895/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Remote Full Stack Web Developer|Mend VIP |US|https://www.linkedin.com/jobs/view/1775393627/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=HIDDEN_GEM&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Backend Web Developer|Django Software Foundation |Portugal|https://www.linkedin.com/jobs/view/1729051555/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Junior Software Engineer|Clear Measure |US|https://www.linkedin.com/jobs/view/1758310523/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Frontend Web Developer|Percona |US|https://www.linkedin.com/jobs/view/1545132367/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Web Developer|Impartner Software |UK|https://www.linkedin.com/jobs/view/1759831226/?eBP=JOB_SEARCH_ORGANIC&recommendedFlavor=SCHOOL_RECRUIT&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Web Developer|Creospan Inc. |US|https://www.linkedin.com/jobs/view/1759146352/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Junior Java Developer|e-merge |US|https://www.linkedin.com/jobs/view/1677237170/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|PHP Developer Web Developer|Unleashed Technologies |US|https://www.linkedin.com/jobs/view/1727717539/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=SCHOOL_RECRUIT&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Remote Java & Web Developer|Spider Strategies |US|https://www.linkedin.com/jobs/view/1765377899/?eBP=NotAvailableFromVoyagerAPI&refId=67397630-1779-469d-bcb6-1cb3a902f1b6&trk=d_flagship3_search_srp_jobs|
+|Full Stack Web Developer|Twassistant |Philippines|https://www.linkedin.com/jobs/view/1670292505/?eBP=NotAvailableFromVoyagerAPI&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Web Developer|KLOGE LLP |Philippines|https://www.linkedin.com/jobs/view/1498498483/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Junior - Mid Developer|Datafin Recruitment |South Africa|https://www.linkedin.com/jobs/view/1723913115/?eBP=NotAvailableFromVoyagerAPI&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Front-End Web Developer|AMV |Mexico|https://www.linkedin.com/jobs/view/1690221480/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Front End Web Developer|Ignite Mental Health (Harvard Innovation Labs VIP 19)|US|https://www.linkedin.com/jobs/view/1545138474/?eBP=NotAvailableFromVoyagerAPI&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Full Stack Developer and Tutor|Code Institute |Ireland|https://www.linkedin.com/jobs/view/1749393092/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=SCHOOL_RECRUIT&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Back-End Web Developer|Meristone Information Technology Services|Philippines|https://www.linkedin.com/jobs/view/1551750620/?eBP=NotAvailableFromVoyagerAPI&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|C Junior Developer|Empresa Importante de Informática |Peru|https://www.linkedin.com/jobs/view/1775918905/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Remote Unity/Web Developer|Scopic Software |Portugal|https://www.linkedin.com/jobs/view/1770083302/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=HIDDEN_GEM&refId=4c1e5b7b-faea-4866-94f5-a66449b2e029&trk=d_flagship3_search_srp_jobs|
+|Fullstack Web Developer|BTK |Indonesia|https://www.linkedin.com/jobs/view/1662239504/?eBP=NotAvailableFromVoyagerAPI&recommendedFlavor=JOB_SEEKER_QUALIFIED&refId=77847f5e-f2e5-4937-9475-a44de2747c8f&trk=d_flagship3_search_srp_jobs|
+
 
 ## Nigeria
 
