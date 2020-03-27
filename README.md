@@ -6,4 +6,6 @@ Check all the information about the company and position before applying.
 
 Some of openings can require higher level of experience.
 
-**[CLICK HERE TO OPEN THE LIST](https://hellnar.github.io/openings/Openings.html "")**
+> Website for these openings is uder construction
+
+**[ >>> CLICK HERE TO OPEN THE LIST <<< ](https://hellnar.github.io/openings/Openings.html "")**
