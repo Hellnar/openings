@@ -6,5 +6,4 @@ Check all the information about the company and position before applying.
 
 Some of openings can require higher level of experience.
 
-
-updating...
+[CLICK HERE TO OPEN THE LIST](https://hellnar.github.io/openings/ "Adwaw")
