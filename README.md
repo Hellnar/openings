@@ -1,4 +1,4 @@
-# Openings for Developers (Updated 27.03.2020)
+# Openings for Developers (Updated 05.04.2020)
 
 Please note that these openings are from LinkedIn and other sources. 
 I'm not familiar with these companies. 
