@@ -1,254 +1,420 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Openings</title>
-
+	<title>Openings Design</title>
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi+2:400,700&display=swap" rel="stylesheet">
 	<style>
-		h1, h2, ul {
-			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		* {
+			margin: 0;
+			padding: 0;
 		}
 
-		h1, h2 {
+		html {
+			background-color: #f0f6f7;
+			font-family: 'Baloo Thambi 2', cursive;
+		}
+
+		/* === HEADER === */
+
+		header {
+		}
+
+		.header-title {
+			display: flex;
+			justify-content: center;
+		}
+
+		.header-title img {
+			height: 40px;
+			margin: 0 10px 20px 0;
+		}
+
+		.header-social {
+			text-align: right;
+			margin-right: 5%;
+		}
+
+		.header-social img {
+			margin: 10px 0 0 5px;
+			height: 20px;
+			padding: 5px;
+			background-color: rgba(255, 255, 255, 0.5);
+			border-radius: 5px;
+		}
+
+		.header-social img:hover {
+			background-color: rgba(255, 255, 255, 1);
+			cursor: pointer;
+		}
+
+		h1 {
 			text-align: center;
+			margin: 0 0 10px 0;
 		}
 
-		ul {
-			margin-left: 5%;
-		}
+		/* === DATE UPDATE === */
 
-		.customers {
-		  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-		  font-size: 12px;
-		  border-collapse: collapse;
-		  width: 90%;
-		  margin-left: 5%;
-		  margin-right: 5%;
-		}
-
-		.customers td, .customers th {
-		  border: 1px solid #ddd;
-		  padding: 8px;
-		}
-
-		.customers tr:nth-child(even){background-color: #f2f2f2;}
-
-		.customers tr:hover {background-color: #ddd;}
-
-		.customers th {
-		  padding-top: 12px;
-		  padding-bottom: 12px;
-		  text-align: left;
-		  background-color: #4CAF50;
-		  color: white;
-		}
-
-		.highlighted {
+		.date-update {
+			margin: 0;
+			margin-bottom: 10px;
+			display: flex;
+			justify-content: center;
+			font-size: 18px;
 			font-weight: 700;
-			background-color: #bfe7ff;
+			color: #445CCC;
 		}
+
+		/* === CLOSED OPENINGS === */
+
+		.closed-openings {
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-bottom: 10px;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			background-color: #e1e4f0;
+			border-radius: 15px;
+			width: 30%;
+			color: #8f8f8f;
+		}
+
+		/* === TABLE OF CONTENT === */
+
+		.content {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 20px;
+		}
+
+		.content ul {
+			display: flex;
+			justify-content: center;
+			list-style-type: none;
+		}
+
+		.content ul li {
+			display: flex;
+			justify-content: center;
+			margin: 10px;
+			padding: 3px 15px 3px 15px;
+			width: 15%;
+			background-color: #445CCC;
+			border-radius: 40px;
+		}
+
+		.content a {
+			color: white;
+			text-decoration: none;
+			font-weight: 700;
+		}
+
+		/* === SEARCH === */
+
+		.search {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 20px;
+		}
+
+		.search input {
+			width: 40%;
+			height: 30px;
+			padding-left: 15px;
+			border: 1px solid #e3e3e3;
+			border-radius: 15px;
+			outline: none;
+			color: #7d7d7d;
+		}
+
+		/* === TABLE === */
+
+		.table {
+			display: flex;
+			justify-content: center;
+		}
+
+		table {
+			border: 1px solid #e3e3e3;
+			border-collapse: separate !important;
+			width: 90%;
+			background-color: white;
+			border-radius: 15px;
+		}
+
+		th, td {
+			font-size: 14px;
+			color: #7d7d7d;
+			text-align: left;
+			vertical-align: middle;
+			height: 40px;
+			padding: 10px;
+		}
+
+		th {
+			font-weight: 700;
+			color: #525252;
+			width: 10%;
+			font-size: 16px;
+		}
+
+		.table-position {
+			width: 20%;
+		}
+
+		.table-company {
+			width: 15%;
+		}
+
+		td a {
+			background-color: #C1C3D8;
+			color: white;
+			text-decoration: none;
+			font-weight: 700;
+			border-radius: 40px;
+			padding: 3px 15px 3px 15px;
+		}
+
+		td a:hover {
+			background-color: #445CCC;
+		}
+
+		/* === OLD OPENINGS === */
+
+		.old-openings {
+			margin-top: 20px;
+			margin-left: 35%;
+			margin-right: 35%;
+			margin-bottom: 20px;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			background-color: #e1e4f0;
+			border-radius: 15px;
+			width: 30%;
+			color: #8f8f8f;
+		}
+
+		/* === FOOTER === */
+
+		footer {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+		}
+
 	</style>
 </head>
 <body>
+	<header>
+		<div class="header-social">
+			<a href="https://www.patreon.com/stasklymenko"><img src="patreon.png"></a>
+			<a href="https://twitter.com/StasKlymenko"><img src="twitter.png"></a>
+			<a href="https://www.linkedin.com/in/stas-klymenko/"><img src="linkedin.png"></a>
+			<a href="https://github.com/Hellnar"><img src="logo.png"></a>
+		</div>
+		<div class="header-title">
+			<img src="octopus.png">
+			<h1>Openings for Developers</h1>
+		</div>
+	</header>
 
-<h1>OPENINGS FOR DEVELOPERS</h1>
+	<div class="date-update">
+		<p>Last update: 04.04.2020</p>
+	</div>
 
-<ul>
-	<li><a href="#internship">Internship</a></li>
-	<li><a href="#jun-remote">Remote Junior</a></li>
-	<li><a href="#jun-local">Junior Local</a></li>
-	<li><a href="#mid-sen-remote">Remote Middle-Senior</a></li>
-</ul>
+	<div class="closed-openings">
+		<p>If some of the openings are already closed or expired, please, write me to klymenko.stas@gmail.com or use any social media</p>
+	</div>
+
+	<div class="content">
+		<ul>
+			<li><a onclick="internship()" href="#">Internship</a></li>
+			<li><a onclick="junior()" href="#">Junior</a></li>
+			<li><a onclick="middle()" href="#">Middle</a></li>
+			<li><a onclick="senior()" href="#">Senior</a></li>
+		</ul>
+	</div>
+
+	<div class="search">
+		<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+	</div>
+
+	<div class="internship">
+		<div class="table">
+			<table id="myTable">
+				<tr>
+					<th class="table-position">Position</th>
+					<th class="table-company">Company</th>
+					<th class="table-country">Country</th>
+					<th class="table-remote-local">Remote/Local</th>
+					<th class="table-full-part">Full-time/Part-time</th>
+					<th class="table-experience">Experience level</th>
+					<th class="table-languages">Languages</th>
+					<th class="table-apply">Details/Apply</th>
+				</tr>
+
+ <tr><td>Software Developer</td><td>ManTech</td><td>US</td><td>Local</td><td>Full-time</td><td>Internship</td><td>C, Python</td><td><a href="https://www.linkedin.com/jobs/view/1633332379">More info</a></td></tr>
+
+ <tr><td>Junior Software Developer</td><td>Irdeto</td><td>Canada</td><td>Local</td><td>Full-time</td><td>Internship</td><td>Python, Java, Node.JS</td><td><a href="https://www.linkedin.com/jobs/view/1788370415">More info</a></td></tr>
+
+ <tr><td>Trainee Software Engineer</td><td>Modus Information Systems Pvt Ltd.</td><td>India</td><td>Local</td><td>Full-time</td><td>Internship</td><td>&nbsp;</td><td><a href="https://www.linkedin.com/jobs/view/1812047601">More info</a></td></tr>
+
+ <tr><td>Software Engineer</td><td>Twilio Inc.</td><td>Colombia</td><td>Local</td><td>Full-time</td><td>Internship</td><td>Python, PHP, C, C++ or Java</td><td><a href="https://www.linkedin.com/jobs/view/1811249498">More info</a></td></tr>
+
+ <tr><td>Software Engineer - Super Network, Infrastructure Platform</td><td>Twilio Inc.</td><td>Colombia</td><td>Local</td><td>Full-time</td><td>Middle (2 years)</td><td>Java and/or Scala</td><td><a href="https://www.linkedin.com/jobs/view/1811892742">More info</a></td></tr>
+
+ <tr><td>Full Stack Javascript Engineer</td><td>Twilio Inc.</td><td>US</td><td>Local</td><td>Full-time</td><td>Middle (2+ years)</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1804047771">More info</a></td></tr>
+
+ <tr><td>Full Stack Developer</td><td>Checkle</td><td>US</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>TypeScript</td><td><a href="https://www.linkedin.com/jobs/view/1802699619">More info</a></td></tr>
+
+ <tr><td>Junior Android Developer</td><td>Stone</td><td>Brazil</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>Elixir, Python, JavaScript, Swift, Kotlin</td><td><a href="https://www.linkedin.com/jobs/view/1788331027">More info</a></td></tr>
+
+ <tr><td>Front-End Developer</td><td>SkillValue</td><td>France</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>JavaScript, Typescript</td><td><a href="https://www.linkedin.com/jobs/view/1804521340">More info</a></td></tr>
+
+ <tr><td>Front End Developer</td><td>Point to Point Products Ltd</td><td>UK</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1804472410">More info</a></td></tr>
+
+ <tr><td>Web Developer</td><td>Citadel Information Services, Inc</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1806998713">More info</a></td></tr>
+
+ <tr><td>Front end Developer</td><td>ActiveSoft Oy</td><td>US</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>JavaScript, Golang</td><td><a href="https://www.linkedin.com/jobs/view/1804286627">More info</a></td></tr>
+
+ <tr><td>Front End Developer</td><td>Source Code Personnel</td><td>UK</td><td>Remote</td><td>Full-time</td><td>Junior (1+ year)</td><td>JavaScript, Typescript, PHP</td><td><a href="https://www.linkedin.com/jobs/view/1805166079">More info</a></td></tr>
+
+ <tr><td>Software engineer</td><td>R Systems</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle</td><td>JavaScript, TypeScript, GraphQL</td><td><a href="https://www.linkedin.com/jobs/view/1807885650">More info</a></td></tr>
+
+ <tr><td>React Software Developer</td><td>Metric5</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle (2-4 years)</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1807213886">More info</a></td></tr>
+
+ <tr><td>Front End / Javascript Developer</td><td>Rakuna</td><td>Vietnam</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1804502015">More info</a></td></tr>
+
+ <tr><td>Full-Stack Developer</td><td>SkillValue</td><td>France</td><td>Remote</td><td>Part-time</td><td>Junior</td><td>JavaScript, PHP</td><td><a href="https://www.linkedin.com/jobs/view/1805884568">More info</a></td></tr>
+
+ <tr><td>Java Developer</td><td>Excel Global Solutions, Inc.</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle (3+ years)</td><td>Java, JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1807219929">More info</a></td></tr>
+
+ <tr><td>uCPE Software Developer</td><td>Datavision Digital</td><td>US</td><td>Remote</td><td>Full-time</td><td>Junior / Middle</td><td>JavaScript, Typescript, GraphQL, Python</td><td><a href="https://www.linkedin.com/jobs/view/1807466849">More info</a></td></tr>
+
+ <tr><td>Frontend Engineer</td><td>OpenSea</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle (4+ years)</td><td>JavaScript, GraphQL</td><td><a href="https://www.linkedin.com/jobs/view/1807090434">More info</a></td></tr>
+
+ <tr><td>Software Engineer</td><td>Slab</td><td>US</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>Javascript, GraphQL, Elixir</td><td><a href="https://www.linkedin.com/jobs/view/1802674641">More info</a></td></tr>
+
+ <tr><td>WordPress Developer</td><td>ITECCO</td><td>UK</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>&nbsp;</td><td><a href="https://www.linkedin.com/jobs/view/1806101292">More info</a></td></tr>
+
+ <tr><td>Software Developer </td><td>RSDC </td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle (2+ years)</td><td>Java, Javascript, Groovy</td><td><a href="https://www.linkedin.com/jobs/view/1807404301">More info</a></td></tr>
+
+ <tr><td>Software Engineer</td><td>TEC PARTNERS LIMITED</td><td>UK</td><td>Remote</td><td>Full-time</td><td>Middle (2+ years)</td><td>C#, JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1807092348">More info</a></td></tr>
+
+ <tr><td>Developer Evangelist</td><td>Telnyx</td><td>Australia</td><td>Remote</td><td>Full-time</td><td>Middle / Senior</td><td>Python, JavaScript, PHP, C# (.NET) or Java</td><td><a href="https://www.linkedin.com/jobs/view/1807812504">More info</a></td></tr>
+
+ <tr><td>Senior Developer Full-Stack</td><td>SR2</td><td>UK</td><td>Remote</td><td>Full-time</td><td>Senior</td><td>JavaScript, PHP</td><td><a href="https://www.linkedin.com/jobs/view/1806188477">More info</a></td></tr>
+
+ <tr><td>Web Developer</td><td>iSupply Recruitment Ltd</td><td>UK</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>JavaScript, PHP</td><td><a href="https://www.linkedin.com/jobs/view/1805042696">More info</a></td></tr>
+
+ <tr><td>Javascript Frontend Developer</td><td>Oracle</td><td>Czech Republic</td><td>Local</td><td>Full-time</td><td>Middle (3+ years)</td><td>JavaScript, Typescript</td><td><a href="https://www.linkedin.com/jobs/view/1807333659">More info</a></td></tr>
+
+ <tr><td>Junior Software Engineer</td><td>Brooksource</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior (0-3 years)</td><td>JavaScript, Java (or other Back end lang)</td><td><a href="https://www.linkedin.com/jobs/view/1806826740">More info</a></td></tr>
+
+ <tr><td>Software Developer</td><td>Deloitte Nigeria</td><td>Nigeria</td><td>Local</td><td>Full-time</td><td>Middle</td><td>JavaScript, PHP</td><td><a href="https://www.linkedin.com/jobs/view/1812806166">More info</a></td></tr>
 
 
-<h2 id="internship">Internship Openings</h2>
 
-<table class="customers">
-<thead><tr><th>Position</th><th>Company</th><th>Country</th><th>Link</th></tr></thead><tbody>
- <tr><td>Snap Up Software Engineer (Apprentice)</td><td>Snap Inc.</td><td>US</td><td>https://www.linkedin.com/jobs/view/1797077545</td></tr>
- <tr><td>Trainee Web Developer</td><td>IT Career Swap</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1803330777</td></tr>
- <tr><td>Software Developer Apprentice</td><td>Terradin</td><td>US</td><td>https://www.linkedin.com/jobs/view/1803319625</td></tr>
- <tr><td>Software Engineer Intern</td><td>NCI Information Systems, Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1803317831</td></tr>
- <tr><td>Full Stack Developer Intern</td><td>Bee Best Bee Removal Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1803316652</td></tr>
- <tr><td>Trainee .net developer</td><td>AXA</td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1803311394</td></tr>
- <tr><td>Trainee (m/w/d) Frontend Development</td><td>Materna G.m.b.H</td><td>Germany</td><td>https://www.linkedin.com/jobs/view/1803304771</td></tr>
- <tr><td>SOFTWARE ENGINEER (INTERNSHIP)</td><td>Bongo International</td><td>US</td><td>https://www.linkedin.com/jobs/view/1803282652</td></tr>
- <tr><td>Data Science Trainee</td><td>Bertelsmann SE & Co. KGaA</td><td>Germany</td><td>https://www.linkedin.com/jobs/view/1803243260</td></tr>
- <tr><td>Software Engineer Junior</td><td>Sella</td><td>Italy</td><td>https://www.linkedin.com/jobs/view/1797031417</td></tr>
- <tr class="highlighted"><td>Software Engineering Intern - Adobe I/O Runtime</td><td>Adobe</td><td>US</td><td>https://www.linkedin.com/jobs/view/1699570989</td></tr>
- <tr><td>Software Developer, Intern</td><td>ManTech</td><td>US</td><td>https://www.linkedin.com/jobs/view/1624552634</td></tr>
- <tr><td>Software Development Intern</td><td>Leidos</td><td>US</td><td>https://www.linkedin.com/jobs/view/1754811964</td></tr>
- <tr class="highlighted"><td>Graphics Software Engineer Student Internship</td><td>Intel Corporation</td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1802964328</td></tr>
- <tr class="highlighted"><td>Undergrad Intern Technical</td><td>Intel Corporation</td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1802964334</td></tr>
- <tr><td>Trainee Software Engineer</td><td>Refinitiv</td><td>China</td><td>https://www.linkedin.com/jobs/view/1802911574</td></tr>
- <tr class="highlighted"><td>Software Engineer - Intern</td><td>Intel Corporation </td><td>India</td><td>https://www.linkedin.com/jobs/view/1802877601</td></tr>
- <tr><td>Angular.js Development Internship</td><td>Credicxo Tech Private Limited</td><td>India</td><td>https://www.linkedin.com/jobs/view/1802853568</td></tr>
- <tr><td>Software Engineer Intern</td><td>p2p株式会社</td><td>India</td><td>https://www.linkedin.com/jobs/view/1652642894</td></tr>
- <tr><td>Intern Software Engineer</td><td>Aviat Networks</td><td>New Zealand</td><td>https://www.linkedin.com/jobs/view/1802725869</td></tr>
- <tr><td>Student Co-Op: Full Stack Developer (4 month contract)</td><td>TMX Group</td><td>Canada</td><td>https://www.linkedin.com/jobs/view/1802578323</td></tr>
- <tr><td>SOFTWARE ENGINEER INTERN</td><td>Vectrus</td><td>US</td><td>https://www.linkedin.com/jobs/view/1802533363</td></tr>
- <tr><td>Software Developer Intern</td><td>INVIDI Technologies</td><td>Canada</td><td>https://www.linkedin.com/jobs/view/1802536970</td></tr>
- <tr><td>Full Stack Developer Internship</td><td>CARGOAI.co</td><td>Singapore</td><td>https://www.linkedin.com/jobs/view/1802501704</td></tr>
- <tr><td>Web Developer - Internship</td><td>Spare Parts 3D</td><td>Singapore</td><td>https://www.linkedin.com/jobs/view/1802500082</td></tr>
- <tr><td>Trainee Software Engineer</td><td>OLX Group</td><td>Portugal</td><td>https://www.linkedin.com/jobs/view/1802491475</td></tr>
- <tr class="highlighted"><td>Software Development Engineer Intern - Aurora MySQL</td><td>Amazon</td><td>Canada</td><td>https://www.linkedin.com/jobs/view/1792806474</td></tr>
- <tr><td>Software Developer Intern @ Jumple</td><td>GELLIFY</td><td>Italy</td><td>https://www.linkedin.com/jobs/view/1795666840</td></tr>
- <tr><td>Trainee Full Stack .NET/C#</td><td>CQUELLE Ukraine</td><td>Ukraine</td><td>https://www.linkedin.com/jobs/view/1799581421</td></tr>
- <tr><td>Trainee iOS Developer (Full Time, Office)</td><td>Natife</td><td>Ukraine</td><td>https://www.linkedin.com/jobs/view/1799579440</td></tr>
- <tr><td>Web Development Internship</td><td>Omnipresent Robot Tech</td><td>India</td><td>https://www.linkedin.com/jobs/view/1801441186</td></tr>
- <tr><td>Opening For WEB Developer Internship 4 months</td><td>Squad Communications Pvt Ltd</td><td>India</td><td>https://www.linkedin.com/jobs/view/1800411025</td></tr>
- <tr><td>Free IOT Internship</td><td>Sparks Ideas</td><td>India</td><td>https://www.linkedin.com/jobs/view/1800293522</td></tr>
- <tr><td>Software Engineer - Python/Django - Internship</td><td>Ceequence Technologies</td><td>India</td><td>https://www.linkedin.com/jobs/view/1800291783</td></tr>
- <tr><td>Java Developer Internship</td><td>Squad Communications Pvt Ltd </td><td>India</td><td>https://www.linkedin.com/jobs/view/1800271707</td></tr>
- <tr><td>Android Developer - Kotlin - Internship (0-1 yrs)</td><td>FauxIQ Technologies Pvt Ltd</td><td>India</td><td>https://www.linkedin.com/jobs/view/1799838431</td></tr>
- <tr><td>Front end Developer Trainee</td><td>Feathersoft</td><td>India</td><td>https://www.linkedin.com/jobs/view/1796327938</td></tr>
- <tr><td>Software Engineer - Java Development - Trainee</td><td>Servosys Solutions</td><td>India</td><td>https://www.linkedin.com/jobs/view/1796311239</td></tr>
- <tr><td>Walk-In-software engineer-trainee/fresher</td><td>CyberQ Consulting</td><td>India</td><td>https://www.linkedin.com/jobs/view/1796146667</td></tr>
- <tr><td>Software Engineer, Intern (Frontend)</td><td>MemSQL</td><td>Portugal</td><td>https://www.linkedin.com/jobs/view/1797501731</td></tr>
- <tr><td>Trainee Web Developer - No Experience Required</td><td>IT Career Switch</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1803383942</td></tr>
- <tr><td>Junior Java Developer (Intern) (JHB)</td><td>Datafin</td><td>South Africa</td><td>https://www.linkedin.com/jobs/view/1799571201</td></tr>
- <tr><td>Software developer intern</td><td>Wärtsilä</td><td>Russia</td><td>https://www.linkedin.com/jobs/view/1768493913</td></tr>
-</tbody></table>
+ <tr><td>Sr. Software Engineer, Frontend Build Infrastructure</td><td>Slack</td><td>US</td><td>Local</td><td>Full-time</td><td>Senior</td><td>JavaScript, TypeScript</td><td><a href="https://slack.com/intl/en-ua/careers/2153948/sr-software-engineer-frontend-build-infrastructure">More info</a></td></tr>
 
+ <tr><td>UI Developer</td><td>Disys</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior / Middle</td><td>JavaScript</td><td><a href="https://job-openings.monster.com/ui-developer-junior-fremont-ca-us-disys/216457708">More info</a></td></tr>
 
-<h2 id="jun-remote">Remote Junior Openings</h2>
+ <tr><td>Junior Java Developer</td><td>CyberCoders</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior / Middle</td><td>Java</td><td><a href="https://job-openings.monster.com/junior-java-developer-rockville-md-us-cybercoders/217118937">More info</a></td></tr>
 
-<table class="customers">
-<thead><tr><th>Position</th><th>Company</th><th>Country</th><th>Link</th></tr></thead><tbody>
- <tr><td>Web Developer</td><td>CONTEXTworld</td><td>Greece</td><td>https://www.linkedin.com/jobs/view/1792791360</td></tr>
- <tr><td>Wordpress Developer</td><td>R Systems</td><td>US</td><td>https://www.linkedin.com/jobs/view/1799447720</td></tr>
- <tr><td>Front End developer</td><td>InfoQuest</td><td>US</td><td>https://www.linkedin.com/jobs/view/1799573159</td></tr>
- <tr><td>Remote Full Stack Developer</td><td>House of Dev Technology Co., Ltd</td><td>Thailand</td><td>https://www.linkedin.com/jobs/view/1800214188</td></tr>
- <tr><td>Full Stack Developer - Remote Working</td><td>Jackson Hogg Limited</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1800237012</td></tr>
- <tr><td>Java Developer (Remote)</td><td>RIIM</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800497679</td></tr>
- <tr><td>Web Developer - Urgent for a Major Hospital - To Start Remotely</td><td>Morgan McKinley </td><td>Ireland</td><td>https://www.linkedin.com/jobs/view/1800407251</td></tr>
- <tr><td>Python Developer (remote)</td><td>Savantis verbindt</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800166393</td></tr>
- <tr><td>Dotnet developer Remote</td><td>LiveMindz</td><td>US</td><td>https://www.linkedin.com/jobs/view/1801142052</td></tr>
- <tr><td>Remote Wordpress Developer</td><td>IT Craft</td><td>Ukraine</td><td>https://www.linkedin.com/jobs/view/1795366540</td></tr>
- <tr><td>Front end Developer(REMOTE/Full Time)</td><td>ActiveSoft Oy</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800115550</td></tr>
- <tr><td>BI Big Data Developer - Remote Interview - Holborn - 65k</td><td>Jefferson Frank</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1801058322</td></tr>
- <tr><td>Remote Developer (UK Only)</td><td>Rebel Recruiters</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1795426890</td></tr>
- <tr><td>Full Stack Developer - .NET [ Remote ]</td><td>Congruent</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800098558</td></tr>
- <tr><td>BRM Developers (REMOTE)</td><td>Amazech Solutions</td><td>US</td><td>https://www.linkedin.com/jobs/view/1797705616</td></tr>
- <tr><td>UI Engineer (Temp Remote)</td><td>Empower Professionals Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800434469</td></tr>
- <tr><td>Full Stack Developer FULLY REMOTE</td><td>Talent Recruit</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1799508949</td></tr>
- <tr><td>C# Developer - work from home</td><td>Linking Humans</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1799447509</td></tr>
- <tr><td>Java Developer - Remote working</td><td>ISL Ingénierie</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1795025215</td></tr>
- <tr><td>Software Web Developer - Remote Work/Telecommute</td><td>Vector Planning & Services, Inc.</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800501365</td></tr>
- <tr><td>Remote Role .Net/Microservices Developer</td><td>Trail Blazer Consulting LLC</td><td>US</td><td>https://www.linkedin.com/jobs/view/1796694320</td></tr>
- <tr><td>Python Developer - REMOTE</td><td>Scadea Solutions, Inc.</td><td>US</td><td>https://www.linkedin.com/jobs/view/1797708411</td></tr>
- <tr><td>SSIS developer- Full remote</td><td>Xylo Technologies</td><td>US</td><td>https://www.linkedin.com/jobs/view/1799851666</td></tr>
- <tr><td>Remote Python Developer</td><td>Next Horizons Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800430476</td></tr>
- <tr><td>C Developer Remote</td><td>TipTopJob</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1800702350</td></tr>
- <tr><td>C# Developer Remote</td><td>Exposed Solutions</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1798032664</td></tr>
- <tr><td>Android Developers - Madrid/Remote</td><td>Trilogy</td><td>Spain</td><td>https://www.linkedin.com/jobs/view/1801221096</td></tr>
- <tr><td>Python Developer (Fully Remote)</td><td>Arden Resourcing Limited</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1801166850</td></tr>
- <tr><td>Mulesoft Developer (Remote Opportunity)</td><td>Kaav Inc. </td><td>US</td><td>https://www.linkedin.com/jobs/view/1797709109</td></tr>
- <tr><td>Python Developer (remote)</td><td>Savantis Solutions LLC</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800569079</td></tr>
- <tr><td>CRM Developer - Microsoft Dynamics - Remote</td><td>Frank Recruitment Group</td><td>US</td><td>https://www.linkedin.com/jobs/view/1799580224</td></tr>
- <tr><td>Remote Full Stack Developer Node JS</td><td>Recruiting for Good</td><td>US</td><td>https://www.linkedin.com/jobs/view/1799421595</td></tr>
- <tr><td>Python developer (100% Remote opening)</td><td>Kanor Systems Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1795289485</td></tr>
- <tr><td>Go/JavaScript Developer (Remote)</td><td>The Job Network</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800184681</td></tr>
- <tr><td>Junior Java Developer - Remote</td><td>Staffing Front Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1796676774</td></tr>
- <tr><td>Ruby on Rails Developer- 12 month contract- (Fully Remote)</td><td>Vivid Resourcing Ltd</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1799394937</td></tr>
- <tr><td>Software Engineer (Remote)</td><td>Stefanini</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800693376</td></tr>
- <tr><td>Remote - Java Developer (With Web services OR Kafka)</td><td>Apolis</td><td>US</td><td>https://www.linkedin.com/jobs/view/1797121484</td></tr>
- <tr><td>Front-End Web Developer / Product Designer (REMOTE)</td><td>AMV</td><td>Mexico</td><td>https://www.linkedin.com/jobs/view/1799077094</td></tr>
- <tr><td>Need Mobile Developer-Remote Job</td><td>Nexzen Solutions Pvt Ltd</td><td>US</td><td>https://www.linkedin.com/jobs/view/1797708843</td></tr>
- <tr><td>HPC Developer- Remote</td><td>Siri InfoSolutions Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800572014</td></tr>
- <tr><td>Ruby on Rails Developer 100% remote</td><td>Apetan Consulting LLC</td><td>US</td><td>https://www.linkedin.com/jobs/view/1801146153</td></tr>
- <tr><td>Front-End Developer (JS, Angular, TypeScript) - Freelance & Full Remote Project</td><td>SkillValue</td><td>Laos</td><td>https://www.linkedin.com/jobs/view/1800806114</td></tr>
- <tr><td>Frontend Developer / Web Designer (Part-time | Remote)</td><td>Koodi Systems</td><td>Philippines</td><td>https://www.linkedin.com/jobs/view/1797307027</td></tr>
- <tr><td>Java developer(Remote)</td><td>Infinite Computer Solutions</td><td>US</td><td>https://www.linkedin.com/jobs/view/1799559116</td></tr>
- <tr><td>C# Developer - Nr Cambridge & REMOTE</td><td>Profile 29</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1795412046</td></tr>
- <tr><td>Web Developer (fully remote)</td><td>MonetizeMore</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1797916148</td></tr>
- <tr><td>.Net Developer - Remote</td><td>Pull Skill Technologies Inc.</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800434511</td></tr>
- <tr><td>FULL STACK DEVELOPER - REMOTE</td><td>Chapman Tate Associates</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1795422106</td></tr>
- <tr><td>.NET Support Developer (Remote)</td><td>Careers24</td><td>South Africa</td><td>https://www.linkedin.com/jobs/view/1794700000</td></tr>
- <tr><td>Python Developer | Fully Remote | Outside IR35</td><td>SR2 - Socially Responsible Recruitment</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1795346152</td></tr>
- <tr><td>Go Software Engineer - Remote Working</td><td>Revoco d.o.o.</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1794985589</td></tr>
- <tr><td>Java Developer | Remote</td><td>Softcom Systems Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800562886</td></tr>
- <tr><td>Fullstack Developer (JavaScript Expert - Remote)</td><td>12k Energy</td><td>Germany</td><td>https://www.linkedin.com/jobs/view/1796323499</td></tr>
- <tr><td>Back-end PHP Laravel API Developer - Immediate Contract ( Remote )</td><td>ApproveMe</td><td>US</td><td>https://www.linkedin.com/jobs/view/1798453505</td></tr>
- <tr><td>Software Engineer - Python/Django (Remote)</td><td>DrChrono</td><td>US</td><td>https://www.linkedin.com/jobs/view/1797117330</td></tr>
- <tr><td>Remote PHP / Laravel Developer</td><td>Post My Job</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1795439350</td></tr>
- <tr><td>Front End developer - Remote</td><td>InfoQuest Consulting Group Inc. </td><td>US</td><td>https://www.linkedin.com/jobs/view/1799573159</td></tr>
- <tr><td>Front end Developer(REMOTE/Full Time)</td><td>ActiveSoft Oy</td><td>US</td><td>https://www.linkedin.com/jobs/view/1800115550</td></tr>
- <tr><td>Remote Web Full Stack Engineer</td><td>Expensify</td><td>US</td><td>https://www.linkedin.com/jobs/view/1797124260</td></tr>
- <tr><td>Front End Developer (React / JavaScript) Newcastle or Remote worker</td><td>Octad Recruitment Ltd</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1796957160</td></tr>
- <tr><td>Full Stack developer Remote Working</td><td>RapidIT Inc</td><td>US</td><td>https://www.linkedin.com/jobs/view/1795087143</td></tr>
- <tr><td>Remote Full Stack SIEM/SOAR Developer</td><td>Adapt Forward</td><td>US</td><td>https://www.linkedin.com/jobs/view/1801221901</td></tr>
- <tr><td>Software Developer (Remote)</td><td>Applause IT Limited</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1801199274</td></tr>
- <tr><td>React Native Developer Remote</td><td>FULLSTACK RECRUITMENT LIMITED</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1801152930</td></tr>
- <tr><td>Software Engineer - Remote with Security Clearance</td><td>Envistacom</td><td>US</td><td>https://www.linkedin.com/jobs/view/1801145435</td></tr>
-</tbody></table>
+ <tr><td>React-Native Developer</td><td>MATRIX Resources</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior / Middle</td><td> JavaScript</td><td><a href="https://job-openings.monster.com/react-native-developer-junior-mid-irving-tx-us-matrix-resources/217095874">More info</a></td></tr>
 
-<h2 id="jun-local">Junior Local Openings</h2>
+ <tr><td>Jr. Software Developer</td><td>AppleOne</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior</td><td>C#, .Net, JavaScript</td><td><a href="https://job-openings.monster.com/jr-software-developer-guaynabo-pr-us-appleone/217094454">More info</a></td></tr>
 
-<table class="customers">
-<thead><tr><th>Position</th><th>Company</th><th>Country</th><th>Link</th></tr></thead><tbody>
- <tr><td>Software Developer</td><td>Parcellab</td><td>UK</td><td>https://parcellab.recruitee.com/o/software-developer</td></tr>
- <tr><td>Software Engineer - $30,000/year USD</td><td>Crossover for Work</td><td>Nigeria</td><td>https://www.linkedin.com/jobs/view/1792886397</td></tr>
- <tr><td>Freelance Wordpress Developer Job at eHealth4everyone Limited</td><td>eHealth4everyone</td><td>Nigeria</td><td>https://www.linkedin.com/jobs/view/1802252317</td></tr>
- <tr><td>Frontend Developer</td><td>Gratis Digital World</td><td>Nigeria</td><td>https://www.linkedin.com/jobs/view/1802502894</td></tr>
- <tr><td>Developer</td><td>erpSOFTapp Limited</td><td>Nigeria</td><td>https://www.linkedin.com/jobs/view/1802502909</td></tr>
- <tr><td>Software Developer</td><td>Deloitte Nigeria</td><td>Nigeria</td><td>https://www.linkedin.com/jobs/view/1801100919</td></tr>
- <tr><td>Software Developer</td><td>Ontrac Technologies Limited</td><td>Nigeria</td><td>https://www.linkedin.com/jobs/view/1795413510</td></tr>
- <tr><td>Full Stack PHP Web Software Developer</td><td>Summit Recruitment & Search</td><td>Kenya</td><td>https://www.linkedin.com/jobs/view/1801824502</td></tr>
- <tr><td>Software Engineer - Ubuntu Foundations</td><td>Canonical Ltd.</td><td>Kenya</td><td>https://www.linkedin.com/jobs/view/1800798378</td></tr>
- <tr><td>Web Developer</td><td>Purrple Digital</td><td>Kenya</td><td>https://www.linkedin.com/jobs/view/1790538145</td></tr>
- <tr><td>Network Systems Engineer</td><td>Communicate Cape Town IT</td><td>Kenya</td><td>https://www.linkedin.com/jobs/view/1794777934</td></tr>
- <tr><td>Software Engineer - Back End</td><td>Andela</td><td>Ghana</td><td>https://www.linkedin.com/jobs/view/1578507422</td></tr>
- <tr><td>Software Engineer - Full Stack</td><td>Andela</td><td>Ghana</td><td>https://www.linkedin.com/jobs/view/1573114287</td></tr>
- <tr><td>Web Developer</td><td>Filly Coder</td><td>Ghana</td><td>https://www.linkedin.com/jobs/view/1794526915</td></tr>
- <tr><td>Junior Java Developer</td><td>IAD srl</td><td>Italy</td><td>https://www.linkedin.com/jobs/view/1801685296</td></tr>
- <tr><td>Junior Software Engineer</td><td>Brooksource</td><td>US</td><td>https://www.linkedin.com/jobs/view/1559045212</td></tr>
- <tr><td>Data Integration Developer</td><td>ORIX Corporation USA</td><td>US</td><td>https://www.linkedin.com/jobs/view/1801684358</td></tr>
- <tr><td>C++ Embedded Developer</td><td>Whoohoo Belgium NV</td><td>Belgium</td><td>https://www.linkedin.com/jobs/view/1781864904</td></tr>
- <tr><td>Software Developer</td><td>IMCS Group</td><td>US</td><td>https://www.linkedin.com/jobs/view/1781866841</td></tr>
- <tr><td>Research Developer</td><td>Science Museum Group</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1755294802</td></tr>
- <tr><td>Java Developer</td><td>Next Level Business Services, Inc. </td><td>US</td><td>https://www.linkedin.com/jobs/view/1749999235</td></tr>
- <tr class="highlighted"><td>Software Developer Specialist - UX Frontend</td><td>Nasdaq</td><td>India</td><td>https://www.linkedin.com/jobs/view/1684949956</td></tr>
- <tr class="highlighted"><td>Software Developer Specialist</td><td>Nasdaq</td><td>Sweden</td><td>https://www.linkedin.com/jobs/view/1781866775</td></tr>
- <tr><td>.NET Developer</td><td>Tobania</td><td>Netherlands</td><td>https://www.linkedin.com/jobs/view/1781864861</td></tr>
- <tr><td>Java Developer</td><td>Tobania</td><td>Netherlands</td><td>https://www.linkedin.com/jobs/view/1781866769</td></tr>
- <tr><td>Embedded Software Engineer</td><td>Randstad Switzerland</td><td>Sweden</td><td>https://www.linkedin.com/jobs/view/1781864852</td></tr>
- <tr><td>Java Developer</td><td>Campusjäger</td><td>Germany</td><td>https://www.linkedin.com/jobs/view/1806681661</td></tr>
- <tr><td>Web-Developer</td><td>Lernstudio Barbarossa Nachhilfeunterricht</td><td>Germany</td><td>https://www.linkedin.com/jobs/view/1806681492</td></tr>
- <tr><td>Entry Level Java Developer</td><td>Jobs Interviewing Now from HCS</td><td>US</td><td>https://www.linkedin.com/jobs/view/1781864822</td></tr>
- <tr><td>Ruby on Rails Developer</td><td>Student Beans</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1781867130</td></tr>
- <tr><td>Junior ios developer</td><td>YouGov Poland Sp. z o.o. </td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1806680013</td></tr>
- <tr><td>Android software developer</td><td>Scandit </td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1806679903</td></tr>
- <tr><td>Frontend developer mindbox</td><td>Mindbox</td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1806676397</td></tr>
- <tr><td>Golang developer</td><td>Miquido</td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1806679837</td></tr>
- <tr><td>Backend Software Engineer (Algorithms)</td><td>SESTO ROBOTICS PTE. LTD</td><td>Singapore</td><td>https://www.linkedin.com/jobs/view/1806904047</td></tr>
- <tr><td>Software Engineer</td><td>USER EXPERIENCE RESEARCHERS PTE. LTD</td><td>Singapore</td><td>https://www.linkedin.com/jobs/view/1806904040</td></tr>
- <tr><td>UI Developer (Javascript, SQL)</td><td>Snaphunt</td><td>India</td><td>https://www.linkedin.com/jobs/view/1806903746</td></tr>
- <tr><td>IOS Mobile Developer</td><td>Colnect</td><td>Ukraine</td><td>https://www.linkedin.com/jobs/view/1806901680</td></tr>
- <tr><td>Qa automation engineer</td><td>Wildix</td><td>Ukraine</td><td>https://www.linkedin.com/jobs/view/1806900872</td></tr>
- <tr><td>Software Developer</td><td>AllianceBernstein</td><td>US</td><td>https://www.linkedin.com/jobs/view/1806895231</td></tr>
- <tr><td>Java JMS developer</td><td>Northern Trust Corporation</td><td>India</td><td>https://www.linkedin.com/jobs/view/1802649378</td></tr>
- <tr><td>Full Stack Developer (m/w/d) JavaScript, React/Preact, Node.js</td><td>FUNKE DIGITAL GmbH</td><td>Germany</td><td>https://www.linkedin.com/jobs/view/1806943367</td></tr>
- <tr><td>Python Fullstack Developer</td><td>InsERT Sp. z o.o.</td><td>Poland</td><td>https://www.linkedin.com/jobs/view/1806936300</td></tr>
- <tr><td>Developer</td><td>Altron Bytes Systems Integration</td><td>South Africa</td><td>https://www.linkedin.com/jobs/view/1806924317</td></tr>
- <tr><td>MicroServices Developer</td><td>Daimler</td><td>India</td><td>https://www.linkedin.com/jobs/view/1806878136</td></tr>
- <tr><td>Frontend Engineer - React</td><td>Snaphunt</td><td>India</td><td>https://www.linkedin.com/jobs/view/1806632764</td></tr>
-</tbody></table>
+ <tr><td>Junior Software Engineer</td><td>Apex Systems</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior</td><td>.NET, C#, JavaScript</td><td><a href="https://job-openings.monster.com/junior-software-engineer-milwaukee-wi-us-apex-systems/216459638">More info</a></td></tr>
 
-<h2 id="mid-sen-remote">Middle-Senior Remote Openings</h2>
+ <tr><td>Junior Developer</td><td>CyberCoders</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior</td><td>PHP, JavaScript</td><td><a href="https://job-openings.monster.com/junior-developer-php-javascript-sql-rochelle-park-nj-us-cybercoders/217118868">More info</a></td></tr>
 
-<table class="customers">
-<thead><tr><th>Position</th><th>Company</th><th>Country</th><th>Link</th></tr></thead><tbody>
- <tr><td>Middle Angular Developer (Remote)</td><td>Mobilunity</td><td>Ukraine</td><td>https://www.linkedin.com/jobs/view/1799576448</td></tr>
- <tr><td>Frontend Developer</td><td>Xcede</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1578899401</td></tr>
- <tr><td>Senior Backend Developer</td><td>SEVENTWENTY </td><td>Australia</td><td>https://www.linkedin.com/jobs/view/1796546838</td></tr>
- <tr><td>Senior Developer</td><td>emids</td><td>US</td><td>https://www.linkedin.com/jobs/view/1796520296</td></tr>
- <tr><td>Analytic Healthcare Data Engineer / Tableau Developer</td><td>Catalyte</td><td>US</td><td>https://www.linkedin.com/jobs/view/1802485766</td></tr>
- <tr><td>Senior Software Engineer Team Lead</td><td>Planet</td><td>Germany</td><td>https://www.linkedin.com/jobs/view/1766867850</td></tr>
- <tr><td>PHP Developer</td><td>RecruiterSpy Ltd</td><td>UK</td><td>https://www.linkedin.com/jobs/view/1802315918</td></tr>
- <tr><td>Senior Frontend Developer</td><td>Unanet</td><td>US</td><td>https://www.linkedin.com/jobs/view/1776872365</td></tr>
- <tr><td>API Developer</td><td>CIMA Consulting Group, LLC</td><td>US</td><td>https://www.linkedin.com/jobs/view/1802016885</td></tr>
-</tbody></table>
+ <tr><td>Software Developer </td><td>CyberCoders</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior</td><td>C, C++</td><td><a href="https://job-openings.monster.com/software-developer-jr-mid-c-c-linux-very-stable-sector-torrance-ca-us-cybercoders/217118056">More info</a></td></tr>
 
+ <tr><td>Jr. Full Stack Engineer</td><td>Equinix</td><td>US</td><td>Local</td><td>Full-time</td><td>Junior</td><td>JavaScript, Java</td><td><a href="https://job-openings.monster.com/intern-jr-full-stack-engineer-sunnyvale-ca-us-equinix/f260b74e-1134-4b74-892e-536ae2bf73bb">More info</a></td></tr>
+
+ <tr><td>Frontend Developer</td><td>CyberCoders</td><td>US</td><td>Local</td><td>Full-time</td><td>Middle</td><td>Javascript</td><td><a href="https://job-openings.monster.com/frontend-developer-react-js-css-html-irvine-ca-us-cybercoders/217068749">More info</a></td></tr>
+
+ <tr><td>Front End Developer</td><td>IWD Agency</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle</td><td>JavaScript</td><td><a href="https://iwd-agency.breezy.hr/p/a498b839dae1-front-end-developer">More info</a></td></tr>
+
+ <tr><td>Front End Developer</td><td>Requis</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle</td><td>JavaScript</td><td><a href="https://requis.breezy.hr/p/ed500f31c943-front-end-developer-remote">More info</a></td></tr>
+
+ <tr><td>Front End Software Engineer</td><td>Fireflies</td><td>US</td><td>Remote</td><td>Full-time</td><td>Middle</td><td>JavaScript</td><td><a href="https://fireflies.breezy.hr/p/b6c6542e84dc-front-end-software-engineer">More info</a></td></tr>
+
+ <tr><td>Junior Developer</td><td>Start Hub Consulting</td><td>Italy</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>Python, Java, C, C#</td><td><a href="https://www.linkedin.com/jobs/view/1808418429">More info</a></td></tr>
+
+ <tr><td>Frontend Developer</td><td>Start Hub Consulting</td><td>Italy</td><td>Remote</td><td>Full-time</td><td>Junior</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1808419150">More info</a></td></tr>
+
+ <tr><td>Developer Support Engineer</td><td>Facebook</td><td>Ireland</td><td>Local</td><td>Full-time</td><td>Middle / Senior (3-4 years)</td><td>Java, PHP, Objective-C, Python and Ruby</td><td><a href="https://www.linkedin.com/jobs/view/1813543188">More info</a></td></tr>
+
+ <tr><td>Junior Python Developer</td><td>Contentsquare</td><td>Israel</td><td>Local</td><td>Full-time</td><td>Junior (0-3 years)</td><td>Python</td><td><a href="https://www.linkedin.com/jobs/view/1789854389">More info</a></td></tr>
+
+ <tr><td>UI Developer</td><td>Tata Consultancy Services</td><td>US</td><td>Local</td><td>Full-time</td><td>Senior (5+ years)</td><td>Javascript, Java</td><td><a href="https://www.linkedin.com/jobs/view/1759841764">More info</a></td></tr>
+
+ <tr><td>Frontend developer</td><td>Ultimo South</td><td>UK</td><td>Local</td><td>Full-time</td><td>Senior</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1814703562">More info</a></td></tr>
+
+ <tr><td>Software Engineer</td><td>Atlantis Lab</td><td>India</td><td>Local</td><td>Full-time</td><td>Junior</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1813545317">More info</a></td></tr>
+
+ <tr><td>Frontend Developer</td><td>Altar</td><td>Poland</td><td>Local</td><td>Full-time</td><td>Junior</td><td>JavaScript, Typescript</td><td><a href="https://www.linkedin.com/jobs/view/1814567237">More info</a></td></tr>
+
+ <tr><td>Jr. Full Stack Developer</td><td>Fidelity Canada</td><td>Canada</td><td>Local</td><td>Full-time</td><td>Middle (2-4 years)</td><td>JavaScript</td><td><a href="https://www.linkedin.com/jobs/view/1737013237">More info</a></td></tr>
+
+			</table>
+		</div>
+	</div>
+
+	<div class="old-openings">
+		<p>You can find old openings from this list <a href="https://docs.google.com/spreadsheets/d/1DZGVAamf5TUU-pssWRgQ6OAg2RlC-CVxf7hCK8RLKCU/edit?usp=sharing">here</a>.</p>
+	</div>
+
+	<footer>
+		<p>Maintained by Stas Klymenko</p>
+	</footer>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, cell, i, j;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 1; i < tr.length; i++) {
+    // Hide the row initially.
+    tr[i].style.display = "none";
+  
+    td = tr[i].getElementsByTagName("td");
+    for (var j = 0; j < td.length; j++) {
+      cell = tr[i].getElementsByTagName("td")[j];
+      if (cell) {
+        if (cell.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+          break;
+        } 
+      }
+    }
+  }
+}
+
+function internship() {
+    document.getElementById('myInput').value = 'Internship';
+    myFunction();
+}
+function junior() {
+   document.getElementById('myInput').value = 'Junior';
+   myFunction();
+}
+function middle() {
+    document.getElementById('myInput').value = 'Middle';
+    myFunction();
+}
+function senior() {
+    document.getElementById('myInput').value = 'Senior';
+    myFunction();
+}
+</script>
 
 </body>
 </html>
