@@ -1,0 +1,46 @@
+[
+    {
+       "logo":"https://media-exp1.licdn.com/dms/image/C4D0BAQEwMOkj4MVtOw/company-logo_200_200/0?e=1612396800&v=beta&t=bHeTBDKm_62R7Ssl69WBNwLid8do9-mX1eSfqlxWBXw",
+       "position":"Web Developer - Remote",
+       "company":"Anaconda, Inc.",
+       "country":"Remote, OR, US",
+       "remote":"Remote",
+       "type":"Full-time",
+       "lvel":"Entry level",
+       "technologies":"html, css, javascript, jquery, react, redux, angular, vue, python, java, rest",
+       "apply":"https:/www.linkedin.com/jobs/view/2269835559"
+    },
+    {
+       "logo":"https://media-exp1.licdn.com/dms/image/C4D0BAQFtfgywkWaDpw/company-logo_200_200/0?e=1612396800&v=beta&t=RgkHiyg2YwnufAbTwlhleUafkl9_4M3q7MI7C4FBBsY",
+       "position":"Frontend Developer, Asia or EU (Remote)",
+       "company":"Labster",
+       "country":"Copenhagen, DK ",
+       "remote":"Remote",
+       "type":"Full-time",
+       "lvel":"Entry level",
+       "technologies":"js, react, vue, php, wordpress",
+       "apply":"https:/www.linkedin.com/jobs/view/2233496751"
+    },
+    {
+       "logo":"https://media-exp1.licdn.com/dms/image/C4E0BAQGHDIvD85Oswg/company-logo_200_200/0?e=1612396800&v=beta&t=w0sQS5As-Ea8M9XpXTjS2n1DkSV5ILvm08OESjc3r90",
+       "position":"Remote Front-end Developer",
+       "company":"Page Personnel",
+       "country":"Barcelona, ES",
+       "remote":"Remote",
+       "type":"Full-time",
+       "lvel":"Entry level",
+       "technologies":"html, css, sass, less, scss, js, javascript, jquery, react, php, java, es6, webpack",
+       "apply":"https:/www.linkedin.com/jobs/view/2266132998"
+    },
+    {
+       "logo":"https://media-exp1.licdn.com/dms/image/C560BAQG3wShAk8NDeA/company-logo_200_200/0?e=1612396800&v=beta&t=XLnj-afkxANfx_oXbds6UoAkZKr2LAukWqXNAWRJRes",
+       "position":"Javascript Developer",
+       "company":"GoDaddy",
+       "country":"Nottingham, GB",
+       "remote":"Remote",
+       "type":"Full-time",
+       "lvel":"Entry level",
+       "technologies":"react, redux, graphql, rest",
+       "apply":"https:/www.linkedin.com/jobs/view/2266789979"
+    }
+ ]
