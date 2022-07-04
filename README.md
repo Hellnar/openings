@@ -11,4 +11,4 @@ Check all of the information about the company and position before applying.
 
 Some openings can require a higher level of experience.
 
-**[ >>> CLICK HERE TO OPEN THE LIST <<< ](https://hellnar.github.io/openings/Openings.html "")**
+**[ OPEN THE LIST ](https://hellnar.github.io/openings/Openings.html "")**
